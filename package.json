@@ -1,0 +1,11 @@
+{
+  "name": "music101",
+  "version": "1.0.0",
+  "description": "music app for artists",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "ramahadi Moheane",
+  "license": "ISC"
+}
