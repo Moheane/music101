@@ -4,8 +4,25 @@
   "description": "music app for artists",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "mocha test"
   },
   "author": "ramahadi Moheane",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.7.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "winston": "^3.8.2",
+    "winston-mongodb": "^5.1.1"
+  },
+  "devDependencies": {
+    "helmet": "^6.0.1",
+    "morgan": "^1.10.0"
+  }
 }
